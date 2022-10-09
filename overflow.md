@@ -2,18 +2,23 @@
 https://overmail.online/registration
 - BUG: Страница регистрации отображается не полностью с вертикальной и горизонтальной прокруткой страницы на устройстве "iPhone SE".
 
-<p align="center"><img src="https://i.ibb.co/bLRXKfv/2022-10-09-16-30-21.png" data-canonical-src="https://i.ibb.co/bLRXKfv/2022-10-09-16-30-21.png" width="20%"/></p>
+<p align="center">
+	<img src="https://i.ibb.co/bLRXKfv/2022-10-09-16-30-21.png" data-canonical-src="https://i.ibb.co/bLRXKfv/2022-10-09-16-30-21.png" width="20%"/>
+</p>
 
 - Поле ”Имя” и “Фамилия”:
     1. Нельзя вводить пустое поле.
     2. Поля не должны содержать более 45 символов.
     3. BUG: Не выводится информационное сообщение о некорректном вводе при наличии пробелов в каждом из полей. Кроме того, пробелы сохраняются даже после регистрации.
 
-<p align="center"><img src="https://i.ibb.co/dfgs2rh/2022-10-09-16-23-22.png" data-canonical-src="https://i.ibb.co/dfgs2rh/2022-10-09-16-23-22.png" width="20%"/></p>
-
+<p align="center">
+	<img src="https://i.ibb.co/dfgs2rh/2022-10-09-16-23-22.png" data-canonical-src="https://i.ibb.co/dfgs2rh/2022-10-09-16-23-22.png" width="20%"/>
+</p>
     4. BUG: Числа в данных полях также игнорируются: информационные сообщения о некорректности ввода отсутствуют и числа отображаются в профиле.
 
-<p align="center"><img src="https://i.ibb.co/wcsvf5W/2022-10-09-16-25-07.png" data-canonical-src="https://i.ibb.co/wcsvf5W/2022-10-09-16-25-07.png" width="20%"/></p>
+<p align="center">
+	<img src="https://i.ibb.co/wcsvf5W/2022-10-09-16-25-07.png" data-canonical-src="https://i.ibb.co/wcsvf5W/2022-10-09-16-25-07.png" width="20%"/>
+</p>
 
 - Поле “Логин”:
     1. При вводе ранее зарегистрированного логина выводит сообщение: "Пользователь login уже существует".
@@ -29,7 +34,9 @@ https://overmail.online/registration
     2. При некорректном вводе подсвечиваются красным поля с ошибочными данными, неверные поля подписываются информационными сообщениями о причине.
     3. BUG: В случае нажатии на кнопку при условии некорретности полей "Логин" и "Пароль" или "Повтор пароля" текст в сообщении под полем "Логин" вылезает за элемент и отображается поверх названия поля "Пароль", при этом отображаясь не полностью.
 
-<p align="center"><img src="https://i.ibb.co/D8SzsXK/unknown.png" data-canonical-src="https://i.ibb.co/D8SzsXK/unknown.png" width="20%"/></p>
+<p align="center">
+	<img src="https://i.ibb.co/D8SzsXK/unknown.png" data-canonical-src="https://i.ibb.co/D8SzsXK/unknown.png" width="20%"/>
+</p>
 
 - Кнопка “Назад”:
 	1. Возвращает на страницу авторизации https://overmail.online/login.
