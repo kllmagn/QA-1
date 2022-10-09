@@ -2,7 +2,7 @@
 https://overmail.online/registration
 - BUG: Страница регистрации отображается не полностью с вертикальной и горизонтальной прокруткой страницы на устройстве "iPhone SE".
 
-![Визуальный вид ошибки](https://i.ibb.co/bLRXKfv/2022-10-09-16-30-21.png | width=100)
+<img src="https://i.ibb.co/bLRXKfv/2022-10-09-16-30-21.png" data-canonical-src="https://i.ibb.co/bLRXKfv/2022-10-09-16-30-21.png" width="100"/>
 
 - Поле ”Имя” и “Фамилия”:
     1. Нельзя вводить пустое поле.
